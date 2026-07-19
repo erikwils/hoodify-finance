@@ -1,0 +1,12 @@
+# Dependencies (reinstalled via `npm ci` from the committed lockfile + vendored core)
+node_modules/
+
+# Secrets / local env — never commit these
+web.env
+.env
+.env.local
+*.secret
+
+# Local runtime / logs
+*.log
+tmp/

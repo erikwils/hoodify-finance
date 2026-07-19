@@ -1,0 +1,28 @@
+{
+  "_note": "hoodify-finance — instance brand pack (overrides over config/branding.neutral.json). Authored by `bongos init`. Fill the LOOK (palette/fonts/wordmark) with your own LLM via docs/branding-fill-prompt.md.",
+  "identity": {
+    "productName": "hoodify-finance",
+    "worldName": "hoodify-finance",
+    "company": {
+      "name": "Erik Industries",
+      "site": ""
+    }
+  },
+  "llmProjectName": "hoodify-finance",
+  "domains": {
+    "publicOrigin": "http://localhost:3000",
+    "buildersOrigin": "http://localhost:3000",
+    "statusOrigin": "http://localhost:3000",
+    "oauthOrigin": "http://localhost:3000"
+  },
+  "repo": {
+    "owner": "erikwils",
+    "name": "hoodify-finance"
+  },
+  "firstAdmin": "erikwils",
+  "currency": {
+    "label": "credits",
+    "symbol": ""
+  },
+  "envPrefix": "CLOUDBONGOS"
+}
