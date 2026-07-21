@@ -1,13 +1,13 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "hoodify-finance — Bongos API",
-    "version": "0.0.2",
+    "title": "hoodify-finance — GDS API",
+    "version": "1.18.11",
     "license": {
       "name": "AGPL-3.0-or-later",
       "url": "https://www.gnu.org/licenses/agpl-3.0.html"
     },
-    "description": "The Bongos API — the build-methodology backend\n(builders, tasks, claims, credits, grading, memory, dev boxes).\n\n**API version:** `v1` — served at `/api/bongos/v1`. The\nunversioned `/api/bongos` and legacy `/api/gds` are permanent aliases\npinned to this version; pin to `/api/bongos/v1` for a stable\ncontract (breaking changes ship a new `/vN`, ADR 0117). This is the\nCONTRACT version, distinct from the package build in `info.version`.\n\n**Base path:** `/api/bongos` (every path below is relative to it).\n\n**Auth:** a builder session — the `gds_session` cookie (web) or\n`Authorization: Bearer <token>` (CLI). **Ranks** gate writes and are\nenforced server-side per request, never cached (ADR 0016):\n`public` < `any-builder` < `metic+archon` < `archon`.\nEach operation carries its required rank in `x-rank`.\n\nGenerated from the live route files by `scripts/gds/gen-api-docs.js` —\ndo not hand-edit; it regenerates on every ship."
+    "description": "The Game Development System (GDS) API — the build-methodology backend\n(builders, tasks, claims, credits, grading, memory, dev boxes).\n\n**API version:** `v1` — served at `/api/bongos/v1`. The\nunversioned `/api/bongos` and legacy `/api/gds` are permanent aliases\npinned to this version; pin to `/api/bongos/v1` for a stable\ncontract (breaking changes ship a new `/vN`, ADR 0117). This is the\nCONTRACT version, distinct from the package build in `info.version`.\n\n**Base path:** `/api/bongos` (every path below is relative to it).\n\n**Auth:** a builder session — the `gds_session` cookie (web) or\n`Authorization: Bearer <token>` (CLI). **Ranks** gate writes and are\nenforced server-side per request, never cached (ADR 0016):\n`public` < `any-builder` < `metic+archon` < `archon`.\nEach operation carries its required rank in `x-rank`.\n\nGenerated from the live route files by `scripts/gds/gen-api-docs.js` —\ndo not hand-edit; it regenerates on every ship."
   },
   "x-api-version": "v1",
   "servers": [

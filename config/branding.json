@@ -4,16 +4,16 @@
     "productName": "hoodify-finance",
     "worldName": "hoodify-finance",
     "company": {
-      "name": "Erik Industries",
+      "name": "",
       "site": ""
     }
   },
   "llmProjectName": "hoodify-finance",
   "domains": {
-    "publicOrigin": "http://localhost:3000",
-    "buildersOrigin": "http://localhost:3000",
-    "statusOrigin": "http://localhost:3000",
-    "oauthOrigin": "http://localhost:3000"
+    "publicOrigin": "http://localhost:3007",
+    "buildersOrigin": "http://localhost:3007",
+    "statusOrigin": "http://localhost:3007",
+    "oauthOrigin": "http://localhost:3007"
   },
   "repo": {
     "owner": "erikwils",

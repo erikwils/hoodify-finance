@@ -1,12 +1,8 @@
-# Dependencies (reinstalled via `npm ci` from the committed lockfile + vendored core)
 node_modules/
-
-# Secrets / local env — never commit these
-web.env
+dist/
 .env
 .env.local
-*.secret
-
-# Local runtime / logs
 *.log
-tmp/
+# Whole-file generated navigation docs — regenerated at deploy (ADR 0110, task 1002314).
+docs/session-log-index.md
+docs/repo-map.md
